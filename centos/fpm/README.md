@@ -1,9 +1,11 @@
 This is fpm with CentOS 7:latest
 
 More about fpm: https://rubygems.org/gems/fpm
+
 https://github.com/jordansissel/fpm/wiki
 
 Example: 
+
 1. mkdir "pwd"/rpmsrc
 
 2. put files you want to pack into rpm to "pwd"/rpmsrc/mytest
