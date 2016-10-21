@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor entityID="https://services333.zuora.com" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue/></ds:Reference></ds:SignedInfo><ds:SignatureValue/><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDRjCCAi6gAwIBAgIEUnqjnzANBgkqhkiG9w0BAQUFADBlMQswCQYDVQQGEwJVUzELMAkGA1UE
+CBMCQ0ExFDASBgNVBAcTC0Zvc3RlciBDaXR5MQ4wDAYDVQQKEwVadW9yYTEMMAoGA1UECxMDRW5n
+MRUwEwYDVQQDEwxzcC56dW9yYS5jb20wHhcNMTMxMTA2MjAxNjMxWhcNMTYwODAyMjAxNjMxWjBl
+MQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFDASBgNVBAcTC0Zvc3RlciBDaXR5MQ4wDAYDVQQK
+EwVadW9yYTEMMAoGA1UECxMDRW5nMRUwEwYDVQQDEwxzcC56dW9yYS5jb20wggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQC7FPH5As8efYmTwUh4uc0zavJmSN/kMyDmmbOYEmKOTjCozO62
+VzdqCLf2nKPrVUZpor1XWt2upFFMFt4YhRXY0lDWV9eGJKrufEE1TJn2xdxzxDElXYCGQ9a6Y7NL
+dHCpTxgOBHhgcg7tqwmWoXiJRdwscBTPUN5EKCgvGi9g5L1V6DgHkI3sMjGOPrNs4nU34Zb1xzxH
+Hp+ItGRg5eepnvtI//HWnV/mB9DyyDCbmUmTZzg0AEC31HSURRit5jt/UWuODstmqpE3cgWWBnfT
+XquaRcAHugBiEP1q9+qv2ZRouj9v0F9cN+SaToyCJYCrfmiNVZn7cTOWmiNcPPjRAgMBAAEwDQYJ
+KoZIhvcNAQEFBQADggEBAJHBX1B5Nl9c1jTJ+O2yFJcqS4+8N74x/mf5lnTfBjqQKxnk3pQUdf7j
+v6Ww9b4i0FKT175v17GVAuAzX0QjKi1PkQ/an9DoFnjqCtmLswxxZaHZnLYH2CB8+OXjksw5TcEA
+X2rbkxSzKI7XLvGK8pezhnSFi/BEOLqYdV8aT4y/ISut1NSgrEUGbYSkDWt4WkFbDlU559sWYcC5
+Vfvxktp5b6IalbKsUxipSN4f7n7oQds7p7yZpiFg9UVhlcrFeKItbmeRaVSqMehI9JAmU2+2Ya1K
+XUV4stcyPUy42knaC5PjAWHDdrFRt0u/cQHsn8E/yycHDisnQbQA4LNW+Vo=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature><md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><md:KeyDescriptor use="signing"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIIDRjCCAi6gAwIBAgIEUnqjnzANBgkqhkiG9w0BAQUFADBlMQswCQYDVQQGEwJVUzELMAkGA1UE
+CBMCQ0ExFDASBgNVBAcTC0Zvc3RlciBDaXR5MQ4wDAYDVQQKEwVadW9yYTEMMAoGA1UECxMDRW5n
+MRUwEwYDVQQDEwxzcC56dW9yYS5jb20wHhcNMTMxMTA2MjAxNjMxWhcNMTYwODAyMjAxNjMxWjBl
+MQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFDASBgNVBAcTC0Zvc3RlciBDaXR5MQ4wDAYDVQQK
+EwVadW9yYTEMMAoGA1UECxMDRW5nMRUwEwYDVQQDEwxzcC56dW9yYS5jb20wggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQC7FPH5As8efYmTwUh4uc0zavJmSN/kMyDmmbOYEmKOTjCozO62
+VzdqCLf2nKPrVUZpor1XWt2upFFMFt4YhRXY0lDWV9eGJKrufEE1TJn2xdxzxDElXYCGQ9a6Y7NL
+dHCpTxgOBHhgcg7tqwmWoXiJRdwscBTPUN5EKCgvGi9g5L1V6DgHkI3sMjGOPrNs4nU34Zb1xzxH
+Hp+ItGRg5eepnvtI//HWnV/mB9DyyDCbmUmTZzg0AEC31HSURRit5jt/UWuODstmqpE3cgWWBnfT
+XquaRcAHugBiEP1q9+qv2ZRouj9v0F9cN+SaToyCJYCrfmiNVZn7cTOWmiNcPPjRAgMBAAEwDQYJ
+KoZIhvcNAQEFBQADggEBAJHBX1B5Nl9c1jTJ+O2yFJcqS4+8N74x/mf5lnTfBjqQKxnk3pQUdf7j
+v6Ww9b4i0FKT175v17GVAuAzX0QjKi1PkQ/an9DoFnjqCtmLswxxZaHZnLYH2CB8+OXjksw5TcEA
+X2rbkxSzKI7XLvGK8pezhnSFi/BEOLqYdV8aT4y/ISut1NSgrEUGbYSkDWt4WkFbDlU559sWYcC5
+Vfvxktp5b6IalbKsUxipSN4f7n7oQds7p7yZpiFg9UVhlcrFeKItbmeRaVSqMehI9JAmU2+2Ya1K
+XUV4stcyPUy42knaC5PjAWHDdrFRt0u/cQHsn8E/yycHDisnQbQA4LNW+Vo=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:KeyDescriptor use="encryption"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIIDRjCCAi6gAwIBAgIEUnqjnzANBgkqhkiG9w0BAQUFADBlMQswCQYDVQQGEwJVUzELMAkGA1UE
+CBMCQ0ExFDASBgNVBAcTC0Zvc3RlciBDaXR5MQ4wDAYDVQQKEwVadW9yYTEMMAoGA1UECxMDRW5n
+MRUwEwYDVQQDEwxzcC56dW9yYS5jb20wHhcNMTMxMTA2MjAxNjMxWhcNMTYwODAyMjAxNjMxWjBl
+MQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFDASBgNVBAcTC0Zvc3RlciBDaXR5MQ4wDAYDVQQK
+EwVadW9yYTEMMAoGA1UECxMDRW5nMRUwEwYDVQQDEwxzcC56dW9yYS5jb20wggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQC7FPH5As8efYmTwUh4uc0zavJmSN/kMyDmmbOYEmKOTjCozO62
+VzdqCLf2nKPrVUZpor1XWt2upFFMFt4YhRXY0lDWV9eGJKrufEE1TJn2xdxzxDElXYCGQ9a6Y7NL
+dHCpTxgOBHhgcg7tqwmWoXiJRdwscBTPUN5EKCgvGi9g5L1V6DgHkI3sMjGOPrNs4nU34Zb1xzxH
+Hp+ItGRg5eepnvtI//HWnV/mB9DyyDCbmUmTZzg0AEC31HSURRit5jt/UWuODstmqpE3cgWWBnfT
+XquaRcAHugBiEP1q9+qv2ZRouj9v0F9cN+SaToyCJYCrfmiNVZn7cTOWmiNcPPjRAgMBAAEwDQYJ
+KoZIhvcNAQEFBQADggEBAJHBX1B5Nl9c1jTJ+O2yFJcqS4+8N74x/mf5lnTfBjqQKxnk3pQUdf7j
+v6Ww9b4i0FKT175v17GVAuAzX0QjKi1PkQ/an9DoFnjqCtmLswxxZaHZnLYH2CB8+OXjksw5TcEA
+X2rbkxSzKI7XLvGK8pezhnSFi/BEOLqYdV8aT4y/ISut1NSgrEUGbYSkDWt4WkFbDlU559sWYcC5
+Vfvxktp5b6IalbKsUxipSN4f7n7oQds7p7yZpiFg9UVhlcrFeKItbmeRaVSqMehI9JAmU2+2Ya1K
+XUV4stcyPUy42knaC5PjAWHDdrFRt0u/cQHsn8E/yycHDisnQbQA4LNW+Vo=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://services333.zuora.com/apps/saml/SingleLogout/alias/defaultAlias"/><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://services333.zuora.com/apps/saml/SingleLogout/alias/defaultAlias"/><md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://services333.zuora.com/apps/saml/SSO/alias/defaultAlias" index="0"/><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://services333.zuora.com/apps/saml/SSO/alias/defaultAlias" index="1" isDefault="true"/></md:SPSSODescriptor></md:EntityDescriptor>
